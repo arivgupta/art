@@ -1,4 +1,4 @@
-# Landing Pages
+### Landing Pages
 
 Here are some landing pages I developed as CSS and JavaScript practice:
 
