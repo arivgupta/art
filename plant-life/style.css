@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   font-family: "IBM Plex Mono";
   font-weight: 300;
@@ -8,11 +17,8 @@ body {
 
   background-color: #ffffff;
   color: #2a2a2a;
-}
 
-h1 {
-  font-size: 24px;
-  font-weight: 500px;
+  overflow-x: hidden;
 }
 
 nav {
@@ -50,4 +56,73 @@ main {
 
 main.open {
   transform: translate(240px, 0);
+}
+
+a.toggle-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+a.toggle-nav img {
+  margin: 0 5px 0 0;
+  vertical-align: middle;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section div {
+  width: 350px;
+}
+
+section div.content {
+  margin: 0 0 0 60px;
+}
+
+h1 {
+  font-weight: 500px;
+  font-family: "Alice";
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 20px 0px;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #00b98d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+div.slides {
+  height: 475px;
+  position: relative;
+}
+
+div.slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+div.slides img:first-child {
+  z-index: 1;
+}
+
+div.slides:hover img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
