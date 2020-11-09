@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
+
+body {
+  font-family: "IBM Plex Mono";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+
+  background-color: #ffffff;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: #00b98d;
+  color: #ffffff;
+  font-family: "Alice";
+  font-size: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px 32px 5px 32px;
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  min-height: 100vh;
+  left: -8px;
+  top: -8px;
+  transition: transform 0.5s;
+}
+
+main.open {
+  transform: translate(240px, 0);
+}
