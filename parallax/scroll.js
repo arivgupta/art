@@ -49,3 +49,26 @@ document.addEventListener("scroll", function() {
         }
     })
 })
+
+// apply parallax to square and circle on scroll
+
+document.addEventListener("scroll", function() {
+    const topViewport = window.pageYOffset
+    const midViewport = topViewport + (window.innerHeight / 2)
+
+    sections.forEach(section => {
+        const topSection = section.offsetTop
+        const midSection = topSection + (section.offsetHeight /2)
+
+        const distanceToSection = midViewport - midSection
+
+        const parallaxTag = section.querySelectorAll(`[data-parallax]`)
+
+        // loope over each parallax tag
+
+        parallaxTag.forEach(tag => {
+            const speed = parseFloat(tag.getAttribute("data-parallax"))
+            tag.style.transform = `translate( 0, ${distanceToSection * speed }px)`
+        })
+    })
+})

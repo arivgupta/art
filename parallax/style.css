@@ -117,3 +117,19 @@ section.s4 div.square {
 section.s4 div.circle {
   background-color: #5982a0;
 }
+
+footer.ami {
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+}
+
+footer.ami a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.5s;
+}
+
+footer.ami a:hover {
+  color: #5982a0;
+}
