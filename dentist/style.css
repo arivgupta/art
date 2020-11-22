@@ -32,6 +32,10 @@ header {
   transition: background-color 1s;
 }
 
+header.scrolled {
+  background-color: white;
+}
+
 header h1,
 header nav {
   flex: 1;
