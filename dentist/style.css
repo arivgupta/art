@@ -169,3 +169,17 @@ section img,
 a.button {
   opacity: 0;
 }
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  font-weight: 500;
+  color: #052837;
+  transition: 1s;
+}
+
+footer p > a:hover {
+  color: #fe5fba;
+}
