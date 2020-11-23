@@ -1,6 +1,20 @@
 const irisLeft = document.querySelector("div.iris-left")
 const irisRight = document.querySelector("div.iris-right")
 
+let interval = null
+
+// move the eyes every 3 seconds
+const startInterval = function() {
+    clearInterval(interval)
+    interval = setInterval(() => {
+        const x = Math.random() * window.innerWidth
+        const y = Math.random() * window.innerHeight
+
+        moveEye(irisLeft, x, y)
+        moveEye(irisRight, x, y)
+    }, 3000)
+}
+
 const moveEye = function(tag, mouseX, mouseY) {
    
     // get the center of the eye
@@ -10,7 +24,7 @@ const moveEye = function(tag, mouseX, mouseY) {
     // find the difference between the eye and the mouse
 
     const diffX = mouseX - eyeMidX
-    const diffY = mouseY - eyeMidY
+    const diffY = mouseY - eyeMidY - window.pageYOffset
 
     // pythagorean theorem
 
@@ -32,7 +46,10 @@ const moveEye = function(tag, mouseX, mouseY) {
     eyeTag.style.top = cappedY + "px"
 }
 
+startInterval()
+
 document.addEventListener("mousemove", function(event){
+    startInterval()
     moveEye(irisLeft, event.pageX, event.pageY)
     moveEye(irisRight, event.pageX, event.pageY)
 })
