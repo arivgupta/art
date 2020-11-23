@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,900&display=swap");
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body {
   font-family: "Rubik", Arial;
   font-size: 18px;
@@ -126,4 +135,12 @@ section.content:nth-child(odd) {
 
 section.content:nth-child(odd) div.content {
   margin: 0 48px 0 0;
+}
+
+h2,
+h3,
+p,
+section img,
+a.button {
+  opacity: 0;
 }
