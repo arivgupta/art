@@ -24,7 +24,7 @@ body {
 
   background-color: #f4e6d8;
   color: #15403d;
-  margin: 240px auto;
+  margin: 240px auto 50px auto;
   max-width: 1120px;
 
   overflow-x: hidden;
@@ -87,4 +87,19 @@ div.stamps {
 div.stamps img {
   position: absolute;
   animation: spin 30s linear infinite;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #15403d;
+  transition: 1s;
+}
+
+footer a:hover {
+  color: #e5745d;
 }
