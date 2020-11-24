@@ -17,6 +17,8 @@ body {
   color: #15403d;
   margin: 240px auto;
   max-width: 1120px;
+
+  transition: background-color 1s;
 }
 
 p {
