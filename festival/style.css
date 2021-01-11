@@ -1,0 +1,53 @@
+@import url("fonts.css");
+@import url("footer.css");
+@import url("viewport.css");
+
+body {
+  font-family: "LunchType-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+}
+
+.section-pad {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.container {
+  max-width: 810px;
+  margin: auto;
+}
+
+.intro {
+  background-image: url(assets/images/intro.jpg);
+  color: #ffffff;
+}
+
+.intro p {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 112px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
