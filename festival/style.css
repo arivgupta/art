@@ -51,3 +51,25 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.appear {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  /* this prevents the animation of going back to the start, making sure it stays in the last state */
+  animation-fill-mode: forwards;
+}
