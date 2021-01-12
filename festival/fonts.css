@@ -13,3 +13,7 @@
     url("/assets/fonts/lunchtype22-medium-expanded-webfont.ttf")
       format("truetype");
 }
+
+.marquee {
+  font-family: "LunchType-Medium", sans-serif;
+}

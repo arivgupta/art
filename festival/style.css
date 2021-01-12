@@ -73,3 +73,35 @@ body {
   /* this prevents the animation of going back to the start, making sure it stays in the last state */
   animation-fill-mode: forwards;
 }
+
+.marquee {
+  position: absolute;
+  top: 3vh;
+  left: 0;
+  width: 100%;
+  font-size: 4vw;
+  line-height: 1;
+  overflow: hidden;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3000vw);
+  }
+}
+
+.marquee span {
+  /* this is the short version of the animation css rule */
+  animation: moveLeft 200s infinite;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+}
+
+.mix-difference {
+  /* change the color of the test to the opposite of the color of the picture under it */
+  mix-blend-mode: difference;
+}
