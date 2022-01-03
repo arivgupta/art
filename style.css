@@ -64,7 +64,7 @@ div.content img {
 div.square {
   width: 100px;
   height: 100px;
-  background-color: #d54156;
+  background-color: #7cc8db;
 
   position: absolute;
   top: 50px;
@@ -74,7 +74,7 @@ div.square {
 div.circle {
   width: 100px;
   height: 100px;
-  background-color: #001455;
+  background-color: #3b5094;
   border-radius: 50%;
 
   position: absolute;
@@ -87,19 +87,19 @@ section.s2 {
 }
 
 section.s2 div.square {
-  background-color: #d6ac35;
+  background-color: #86837a;
 }
 
 section.s2 div.circle {
-  background-color: #be3c52;
+  background-color: #6e6d6d;
 }
 
 section.s3 {
-  background-color: #292121;
+  background-color: #463f3f;
 }
 
 section.s3 div.square {
-  background-color: #5e365f;
+  background-color: #805780;
 }
 
 section.s3 div.circle {
@@ -107,7 +107,7 @@ section.s3 div.circle {
 }
 
 section.s4 {
-  background-color: #85cbd4;
+  background-color: #a8dbe2;
 }
 
 section.s4 div.square {
@@ -131,11 +131,11 @@ section.s5 div.circle {
 }
 
 section.s6 {
-  background-color: #bacafc;
+  background-color: #cad6fa;
 }
 
 section.s6 div.square {
-  background-color: #6d5780;
+  background-color: #746285;
 }
 
 section.s6 div.circle {
@@ -143,7 +143,7 @@ section.s6 div.circle {
 }
 
 section.s7 {
-  background-color: #eef5af;
+  background-color: #f5f4af;
 }
 
 section.s7 div.square {
@@ -155,11 +155,11 @@ section.s7 div.circle {
 }
 
 section.s8 {
-  background-color: #8a6d65;
+  background-color: #8a7a75;
 }
 
 section.s8 div.square {
-  background-color: #614d30;
+  background-color: #887a64;
 }
 
 section.s8 div.circle {
@@ -167,11 +167,11 @@ section.s8 div.circle {
 }
 
 section.s9 {
-  background-color: #e7a1b6;
+  background-color: #ebc1ce;
 }
 
 section.s9 div.square {
-  background-color: #ca9e24;
+  background-color: #db9898;
 }
 
 section.s9 div.circle {
@@ -179,15 +179,15 @@ section.s9 div.circle {
 }
 
 section.s10 {
-  background-color: #cf9a9a;
+  background-color: #bea0a0;
 }
 
 section.s10 div.square {
-  background-color: #b66464;
+  background-color: #cf9a9a;
 }
 
 section.s10 div.circle {
-  background-color: #972236;
+  background-color: #9b3a4a;
 }
 
 footer.ami {
