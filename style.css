@@ -74,7 +74,7 @@ div.square {
 div.circle {
   width: 100px;
   height: 100px;
-  background-color: #5982a0;
+  background-color: #001455;
   border-radius: 50%;
 
   position: absolute;
@@ -98,8 +98,8 @@ section.s3 {
   background-color: #292121;
 }
 
-section.s2 div.square {
-  background-color: #5f3736;
+section.s3 div.square {
+  background-color: #5e365f;
 }
 
 section.s3 div.circle {
@@ -107,7 +107,7 @@ section.s3 div.circle {
 }
 
 section.s4 {
-  background-color: #f3f1f2;
+  background-color: #b982bb;
 }
 
 section.s4 div.square {
@@ -116,6 +116,78 @@ section.s4 div.square {
 
 section.s4 div.circle {
   background-color: #5982a0;
+}
+
+section.s5 {
+  background-color: #c0ecc6;
+}
+
+section.s5 div.square {
+  background-color: #d6ac35;
+}
+
+section.s5 div.circle {
+  background-color: #be3c52;
+}
+
+section.s6 {
+  background-color: #bacafc;
+}
+
+section.s6 div.square {
+  background-color: #d6ac35;
+}
+
+section.s6 div.circle {
+  background-color: #be3c52;
+}
+
+section.s7 {
+  background-color: #eef5af;
+}
+
+section.s7 div.square {
+  background-color: #d6ac35;
+}
+
+section.s7 div.circle {
+  background-color: #be3c52;
+}
+
+section.s8 {
+  background-color: #8a6d65;
+}
+
+section.s8 div.square {
+  background-color: #d6ac35;
+}
+
+section.s8 div.circle {
+  background-color: #be3c52;
+}
+
+section.s9 {
+  background-color: #e7a1b6;
+}
+
+section.s9 div.square {
+  background-color: #d6ac35;
+}
+
+section.s9 div.circle {
+  background-color: #be3c52;
+}
+
+section.s10 {
+  background-color: #6d3939;
+}
+
+section.s10 div.square {
+  background-color: #d6ac35;
+}
+
+section.s10 div.circle {
+  background-color: #be3c52;
 }
 
 footer.ami {
